@@ -87,3 +87,6 @@ execute_fetch(question_12, twelve)
 # armory_weapon as aw \
 # WHERE aw.item_ptr_id = ai.item_id \
 # AND ai.item_id = cci.character_id;')
+
+con.commit()
+con.close()
